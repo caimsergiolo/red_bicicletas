@@ -15,7 +15,7 @@ Bicicleta.add = function(aBici){
 }
 
 Bicicleta.findById = function(aBiciId){
-    var aBici = Bicicleta.allBicis.find(x => x.id = aBiciId);
+    var aBici = Bicicleta.allBicis.find(x => x.id == aBiciId);
     if (aBici)
         return aBici;
     else
